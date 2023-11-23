@@ -1,0 +1,6 @@
+[submodule "shopsybackend1"]
+	path = shopsybackend1
+	url = https://github.com/swetha556/shopsybackend1
+[submodule "shopsyfrontend"]
+	path = shopsyfrontend
+	url = https://github.com/swetha556/shopsyfrontend
