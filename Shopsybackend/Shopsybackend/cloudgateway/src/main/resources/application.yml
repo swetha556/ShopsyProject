@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: cloudgateway
+  cloud:
+    gateway:
+      routes:
+        - id: recordpage
+          uri: lb://recordpage
+          predicates:
+            - Path=/id/**
+        
+            
+            

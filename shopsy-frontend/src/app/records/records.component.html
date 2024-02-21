@@ -1,0 +1,29 @@
+<br><br>
+<div class="p">
+    <h2>Table</h2>
+<br><br>
+<table style="width:100%">
+    <tr> 
+        <th>RecID</th> 
+        <th>CandidateNumber</th>
+        <th>CandidateName</th>
+        <th>Score</th>
+        <th>Ranking</th> 
+        <th>UpdateDate</th> 
+    </tr> 
+    <tbody>
+        <tr *ngFor="let item of candidatedata">
+            <td>{{item.RecID}}</td>
+            <td>{{item.CandidateNumber}}</td>
+            <td>{{item.CandidateName}}</td>
+            <td>{{item.Score}}</td>
+            <td>{{item.Ranking}}</td>
+            <td>{{item.UpdatDate}}</td>
+      </tr>
+      </tbody>
+</table>
+
+<button (click)="exportAsXLSX()">
+    <i class="fa fa-file-excel-o" style="font-size:48px;color:rgb(12, 114, 79)"></i></button>
+    
+</div>
